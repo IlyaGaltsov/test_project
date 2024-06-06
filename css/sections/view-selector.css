@@ -1,0 +1,18 @@
+.change-page {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 18px 0px;
+}
+
+.change-page button {
+  border: none;
+  background-color: unset;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.change-page button.active svg .icon {
+  fill: blue;
+}

@@ -1,0 +1,7 @@
+@import url('./reset.css');
+@import url('./common.css');
+
+@import url('./sections/header.css');
+@import url('./sections/view-selector.css');
+@import url('./sections/gallery.css');
+@import url('./sections/btn-container.css');

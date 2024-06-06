@@ -1,0 +1,43 @@
+:root {
+  --font-family: 'Roboto', sans-serif;
+  --second-family: 'Montserrat', sans-serif;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('data:image/svg+xml;utf8,<svg width="630" height="398" viewBox="0 0 630 398" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M143 351C85.8 414.2 23.8333 399.667 0 384.5L-59 308L-54 1.5L287.5 -84.5L630 -3.5C582.4 11.7 571 23 564.5 52C553.49 101.12 525.333 156 511.5 169.5C457.5 243 363.5 215.5 307 214.5C250.5 213.5 212.5 229.5 191.5 271C175.499 302.622 154 338.167 143 351Z" fill="url(%23paint0_linear_2_32)" /><defs><linearGradient id="paint0_linear_2_32" x1="536.5" y1="-84" x2="54.5" y2="398" gradientUnits="userSpaceOnUse"><stop stop-color="%2340AF79" /><stop offset="1" stop-color="%23124757" /></linearGradient></defs></svg>'),
+    url('data:image/svg+xml;utf8,<svg width="210" height="368" viewBox="0 0 210 368" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M121.932 39.2032C135.932 105.603 148 118.203 156.932 119.703C205.275 127.822 224.932 51.7032 280.932 100.203C336.932 148.703 330.432 411.703 209.432 361.203C88.4321 310.703 83.4321 249.703 73.4321 225.703C65.4321 206.503 39.7655 184.037 27.9322 175.203C-26.8678 126.803 11.4322 58.3699 37.4322 30.2032C59.7655 5.53652 107.932 -27.1968 121.932 39.2032Z" fill="url(%23paint0_linear_2_34)" /><defs><linearGradient id="paint0_linear_2_34" x1="118" y1="-0.296816" x2="51.686" y2="332.244" gradientUnits="userSpaceOnUse"><stop stop-color="%2340AF79" /><stop offset="1" stop-color="%23124757" /></linearGradient></defs></svg>');
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 630px 398px, 210px 368px;
+}
+
+.container {
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  display: none;
+}
+
+.liked {
+  fill: red;
+}
+
+@media screen and (min-width: 836px) {
+  .container {
+    max-width: 836px;
+  }
+
+  .logo{
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 836px) {
+  .container {
+    max-width: 836px;
+  }
+}

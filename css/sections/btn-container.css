@@ -1,0 +1,23 @@
+.btn-container button {
+  width: 111px;
+  height: 28px;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: -0.03em;
+  color: #929292;
+
+  border-radius: 14px;
+  outline: none;
+  border: 1px solid #929292;
+  background-color: unset;
+  cursor: pointer;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+
+    margin: 33px 0px 61px 0px;
+}
